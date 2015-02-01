@@ -48,7 +48,7 @@ class Request
             $this->scheme = "http://";
         }
 
-        $this->base = $this->scheme.$this->http_host.'/API';
+        $this->base = $this->scheme.$this->http_host.API_PATH;
         $this->parseParams();
 
         $headers = apache_request_headers();

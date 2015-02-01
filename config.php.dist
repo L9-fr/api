@@ -11,6 +11,7 @@
 
 // Api name
 define('API_NAME', 'L9 API - https://github.com/L9-fr/api');
+define('API_PATH', '/api');
 
 // Encoding, Lang, Timezone
 define('ENCODING', 'UTF-8');
