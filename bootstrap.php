@@ -65,6 +65,9 @@ if (!function_exists('apache_request_headers') ) {
     }
 }
 
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Headers: *");
+
 try {
     $request = new Engine\Request();
 } catch(Exception $e) {
